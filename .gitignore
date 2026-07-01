@@ -1,0 +1,40 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Project Specific Large Binaries / Models
+models/
+tesseract-setup.exe
+
+# Local Databases and Backups
+database/*.db
+database/backups/
+*.db
+
+# Scanned Uploads and Local Cache
+uploads/*
+!uploads/.gitkeep
+cache/*
+!cache/.gitkeep
+output/*
+!output/.gitkeep
+
+# System Log files
+logs/*
+!logs/.gitkeep
+
+# Configuration Secrets and Environment Files
+.env
+.streamlit/secrets.toml
+
+# OS Files
+.DS_Store
+Thumbs.db
